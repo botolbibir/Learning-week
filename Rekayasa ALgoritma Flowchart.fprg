@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Rekayasa ALgoritma Flowchart"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-23 11:47:38 AM"/>
+        <attribute name="created" value="dXNlcjtMQVBUT1AtSE1MSzI0MEw7MjAyNS0wMi0yMzsxMToxNzowOCBBTTsyNzQ1"/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtSE1MSzI0MEw7MjAyNS0wMi0yMzsxMTo0NzozOCBBTTsxOzI4NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="data" type="Integer" array="False" size=""/>
+            <output expression="&quot;Menentukan tujuan&quot;" newline="True"/>
+            <output expression="&quot;Mengumpulkan data&quot;" newline="True"/>
+            <output expression="&quot;augmentasi data set&quot;" newline="True"/>
+            <input variable="data"/>
+            <output expression="&quot;Anotasi data set&quot;" newline="True"/>
+            <output expression="&quot;Persiapan memproses data&quot;" newline="True"/>
+            <output expression="&quot;Input data ke Model&quot;" newline="True"/>
+            <comment text="model yang dimaksud adalah, software seperti yolo,roboflow, dan lain-lain&#13;&#10;"/>
+            <input variable="data"/>
+            <output expression="&quot;Melatih model&quot;" newline="True"/>
+            <declare name="model" type="String" array="False" size=""/>
+            <if expression="model = &quot;Good&quot;">
+                <then>
+                    <output expression="&quot;evaluasi model&quot;" newline="True"/>
+                    <output expression="&quot;penerapan model&quot;" newline="True"/>
+                </then>
+                <else>
+                    <breakpoint expression="" always="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
